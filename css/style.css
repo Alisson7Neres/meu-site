@@ -152,6 +152,20 @@
     background-color: var(--cor-quartenaria);
   }
 
+  .apresentacao__about {
+    padding: 7% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 92px;
+  }
+
+  .apresentacao__conteudo__titulo__h2 {
+    font-family: 'krona one';
+    color: var(--cor-terciaria);
+    font-weight: bold;
+  }
+
   @media (max-width: 1200px) {
     .cabecalho {
      padding: 10%;
@@ -168,5 +182,9 @@
    }
    .img__perfil {
     box-shadow: 2px 7px var(--cor-secundaria);
+   }
+   .apresentacao__about{ 
+    flex-direction: column;
+    padding: 5%;
    }
   }
